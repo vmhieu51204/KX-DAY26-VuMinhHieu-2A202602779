@@ -1,0 +1,12 @@
+WARNING: The --reload flag is not supported on Windows because it forces Uvicorn to use SelectorEventLoop, which does not support subprocesses (needed for executing tools). Forcing --no-reload.
+2026-10-14 15:34:56,177 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-10-14 15:34:56,178 - INFO - local_storage.py:88 - Using per-agent session storage rooted at D:\vin\KX-DAY26-VuMinhHieu-2A202602779\04-lab\mcp-client
+2026-10-14 15:34:56,179 - INFO - local_storage.py:120 - Using per-agent artifact storage rooted at D:\vin\KX-DAY26-VuMinhHieu-2A202602779\04-lab\mcp-client
+D:\vin\KX-DAY26-VuMinhHieu-2A202602779\04-lab\mcp-client\.venv\Lib\site-packages\google\adk\cli\fast_api.py:553: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+D:\vin\KX-DAY26-VuMinhHieu-2A202602779\04-lab\mcp-client\.venv\Lib\site-packages\google\adk\auth\credential_service\in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [23296]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
